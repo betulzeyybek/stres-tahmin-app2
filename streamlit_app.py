@@ -26,7 +26,7 @@ for i in range(len(features)):
 
 input_data = np.array(user_values).reshape(1, -1)
 
-# Model ve scaler yükle
+
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 with open("scaler.pkl", "rb") as f:
@@ -36,7 +36,7 @@ with open("scaler.pkl", "rb") as f:
 input_scaled = scaler.transform(input_data)
 prediction = model.predict(input_scaled)[0]
 
-# Sonuç
+
 st.subheader("📊 Tahmin Sonucu:")
 if prediction == 1:
     st.error("🔴 Tahmin: **Stresli**")
