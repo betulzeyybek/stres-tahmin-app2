@@ -13,6 +13,7 @@ descriptions = [
     'empati kaybı',
     ' sağlık ',
     'duyarsızlaşma riski'
+    
 ]
 
 st.sidebar.header("🔧 Girdi Değerleri")
@@ -21,6 +22,7 @@ for i in range(len(features)):
     val = st.sidebar.slider(f"{features[i]}", 0, 100, 50)
     st.sidebar.caption(descriptions[i])
     user_values.append(val)
+
 
 input_data = np.array(user_values).reshape(1, -1)
 
