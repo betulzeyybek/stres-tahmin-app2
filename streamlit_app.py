@@ -10,7 +10,7 @@ features = ['cesd', 'mbi_ex', 'mbi_ea', 'health', 'mbi_cy']
 descriptions = [
     'depresyon riski',
     'tükenmişlik ihtimali',
-    'empati kaybı',
+    'empati',
     ' sağlık ',
     'duyarsızlaşma riski'
     
