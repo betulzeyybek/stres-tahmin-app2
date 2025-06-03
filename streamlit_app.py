@@ -8,11 +8,11 @@ st.markdown("Bu uygulama, belirli psikolojik ve davranışsal ölçütlere göre
 
 features = ['cesd', 'mbi_ex', 'mbi_ea', 'health', 'mbi_cy']
 descriptions = [
-    '70 üzeri → yüksek depresyon riski',
-    '80 üzeri → tükenmişlik ihtimali',
-    '60 üzeri → empati kaybı olabilir',
-    '70 üzeri → sağlık algısı düşük olabilir',
-    '80 üzeri → duyarsızlaşma riski'
+    'depresyon riski',
+    'tükenmişlik ihtimali',
+    'empati kaybı',
+    ' sağlık ',
+    'duyarsızlaşma riski'
 ]
 
 st.sidebar.header("🔧 Girdi Değerleri")
